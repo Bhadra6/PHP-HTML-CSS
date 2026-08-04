@@ -1,0 +1,96 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* Header */
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Profile Sections */
+
+.profile-section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.profile-section h2 {
+    color: darkblue;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+.profile-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 95%;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .profile-section {
+        padding: 15px;
+    }
+
+    .profile-section p {
+        font-size: 14px;
+    }
+
+}
