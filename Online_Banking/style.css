@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    padding: 30px;
+    margin: 0;
+}
+
+
+/* Login Container */
+
+.login-container {
+    background-color: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.login-container h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.login-container > p {
+    text-align: center;
+}
+
+
+/* Form */
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+/* Button */
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+/* Demo Login */
+
+.demo {
+    background-color: lightyellow;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/* Error Message */
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Dashboard */
+
+.dashboard {
+    background-color: white;
+    width: 600px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.dashboard h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.dashboard h2 {
+    text-align: center;
+    color: green;
+}
+
+.customer-details {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.customer-details h3 {
+    color: darkblue;
+}
+
+.dashboard a,
+.login-container a {
+    display: block;
+    text-align: center;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    .login-container,
+    .dashboard {
+        width: 90%;
+        padding: 20px;
+    }
+
+}
